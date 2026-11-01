@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+datasets/
+data/people/
+data/backgrounds/
+data/registry_stats.json
+recognizer_cnn.pth
+outputs/
+*.zip

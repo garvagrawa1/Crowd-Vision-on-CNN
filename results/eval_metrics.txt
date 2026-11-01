@@ -1,0 +1,25 @@
+CrowdVision evaluation on 300 unseen synthetic crowd scenes (640x480, 1-10 faces each)
+threshold 0.99, IoU >= 0.4, min votes 2
+
+True faces          : 1438
+Detected boxes      : 1480
+Correct detections  : 1423
+Precision           : 96.1%
+Recall              : 99.0%
+F1 score            : 97.5%
+Count MAE           : 0.23 people per image
+Exact count         : 82.3% of images
+Avg CNN time        : 317 ms per 640x480 image (cpu)
+
+Threshold sweep (precision / recall):
+  0.50: P  52.1%  R  99.6%
+  0.60: P  57.8%  R  99.7%
+  0.70: P  63.7%  R  99.8%
+  0.80: P  70.4%  R  99.8%
+  0.85: P  74.7%  R  99.8%
+  0.90: P  80.5%  R  99.8%
+  0.93: P  84.4%  R  99.8%
+  0.95: P  87.9%  R  99.7%
+  0.97: P  91.3%  R  99.5%
+  0.98: P  93.5%  R  99.1%
+  0.99: P  96.1%  R  99.0%

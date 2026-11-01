@@ -1,0 +1,12 @@
+CrowdVisionNet - crop-level TEST results (people never seen in training)
+Accuracy : 99.87%
+Precision: 99.87%
+Recall   : 99.48%
+F1 score : 99.67%
+Mean box offset error: 0.033 (fraction of window size)
+
+Confusion matrix            predicted face   predicted non-face
+  actual face                     3049                 16
+  actual non-face                    4              11758
+
+Total training time: 30.0 min on cpu
